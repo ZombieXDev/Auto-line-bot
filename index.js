@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 app.listen(3000, () => {
   console.log('server started');
 });
-
+prefix ' - '
 const Discord = require('discord.js')
 ///npm i discord.js@12.5.3
 const client = new Discord.Client()
